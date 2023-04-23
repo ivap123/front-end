@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 1px;
+    padding: 3;
 }
 
 html{ 
@@ -10,7 +10,7 @@ html{
 
 body{ 
     background-color: bisque;
-    front-size: 1.2rem;
+    font-size: 1.2rem;
     min-height: 100%;
     text-align: center;
 }
@@ -24,11 +24,11 @@ body{
    
 }
 .grid-contenedor{
-    display:grid;
-    gap : 10px;
-    grid-template-rows: 100px 100px;
+     display:grid;
+     gap : 10px;
+     grid-template-rows: 100px 100px;
      grid-template-columns: 1fr 2fr;
-     border: 10px;
+     border: 2;
 }
   
 .grid-contenedor:nth-child(1) {
@@ -40,8 +40,33 @@ body{
 .header{
     background-color: aqua;
     text-align: center;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end:6;
+    
+}
+.navb {
+    
+    background-color: aqua;
+    text-align: center;
+    display: grid;
+    grid-column:1;
+    /*grid-row:2;*/
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-row: 6 span ;
 }
 
 
 
 
+.sider {
+    background-color: bisque;
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 6 span ;
+    grid-template-columns: 100% 200px;
+    grid-area: 2 / 2 / 5 /6;
+    margin-top: 2;
+
+}
