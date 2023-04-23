@@ -8,15 +8,20 @@ div{
 
 
 .header{ 
+    color: rgb(226, 43, 43);
     text-align: center;
     display: grid;
-     grid-template-columns: repeat(0, 1fr);
-     grid-template-rows: repeat(0, 1fr);
-     grid-column-gap: 0px;
-     grid-row-gap: 0px;
+    grid-template-columns: 10% 20% 30% 20% 20%;
+    grid-template-rows: 10% 20% 20% 20% 20%;
+    border: 5px black;
      
      
-     
+}
+.grid {
+    display: grid;
+    grid-column-start: 5;
+    grid-column-end: 3  ;
+   
 }
 
 
