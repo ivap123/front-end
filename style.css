@@ -69,4 +69,15 @@ body{
     grid-area: 2 / 2 / 5 /6;
     margin-top: 2;
 
+
+}
+
+.hobbie {
+    background-color: rgb(123, 87, 43);
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 5 span ;
+    grid-template-columns: 100% 200px;
+    grid-area: 5 / 6 / 4 /2;
+    margin:2px;
 }
