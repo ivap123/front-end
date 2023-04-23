@@ -1,1 +1,25 @@
- 
+body{
+    background-color: #c4b920;
+}
+
+div{ 
+    background-color:aquamarine
+}
+
+
+.header{ 
+    text-align: center;
+    display: grid;
+     grid-template-columns: repeat(0, 1fr);
+     grid-template-rows: repeat(0, 1fr);
+     grid-column-gap: 0px;
+     grid-row-gap: 0px;
+     
+     
+     
+}
+
+
+
+
+  
