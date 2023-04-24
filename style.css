@@ -12,7 +12,7 @@ html{
 
 body{
      
-    background-color: rgb(241, 236, 231);
+    background-color: rgb(3, 0, 0);
     font-size: 1.5rem;
     min-height: 100%;
     
@@ -21,10 +21,11 @@ body{
 
 
 .grid-contenedor{
-    background-color: brown;
-    box-shadow: -1px 1px 7px 1px violet;
+    background-color: rgb(115, 127, 127);
+    box-shadow: -1px 1px 7px 1px rgb(5, 1, 5);
     border-radius: 1px;
     padding: 10px;
+    
     /*text-align: center;*/
     
 }
@@ -44,79 +45,90 @@ body{
 
 
 .header{
-    background-color: rgb(44, 83, 83);
+    background-color: rgb(138, 240, 240);
     text-align: center;
     display: grid;
     grid-column-start: 1;
     grid-column-end:6;
+    margin:1px;
     
 }
 .navb {
     
-    background-color: aqua;
+    background-color: rgb(138, 240, 240);
     display: grid;
     grid-column-start:1;
     /*grid-row:2;
     grid-template-columns: 30% 10% 60% 50% 30%;
     grid-template-rows: 10% 30% 30% 30% 30%;*/
     grid-row: 5 span ;
-    grid-area: 1 / 2 / 4 /1;
+    grid-area: 2 / 2 / 4 /1;
+    
+}
+
+.estudio {
+    background-color: rgb(138, 240, 240);
+    display: grid;
+    grid-column-start:3;
+    grid-row: 5 span ;
+    /*grid-template-columns: 0 px  100px;*/
+    grid-area: 4 / 1 / 7 /1 ;
+    margin: 1px;
     
 }
 
 .cen{
     text-align: center;
-    color: rgb(101, 101, 41);
+    color: rgb(0, 0, 0);
 }
 
 
 
 .sider {
-    background-color: bisque;
+    background-color: rgb(138, 240, 240);
     display: grid;
     grid-column-start: 2;
     grid-column-end: 8 span ;
     grid-row: 2;
     grid-template-columns: 0 px 100px;
     grid-area: 2 / 2 / 4 /9;
+    margin: 1px;
    
     
 }
 
-/*.texto{
-    text-align: right;
-}*/
+
 
 .hobbie {
-    background-color: rgb(123, 87, 43);
+    background-color: rgb(138, 240, 240);
     display: grid;
     grid-column-start: 3;
     grid-column-end: 6 span ;
     grid-row:3;
     grid-template-columns: 0 px 50%;
     grid-area: 4 / 4 / 4 /2;
-    margin:2px;
+    margin:1px;
 }
 
 .experiencia{
-    background-color: rgb(17, 104, 28);
+    background-color: rgb(138, 240, 240);
     display: grid;
     grid-column-start: 4;
     grid-column-end: 7 ;
     grid-template-columns: 0 px  100%;
     grid-area: 7 / 6/ 5/2;
-    margin:2px;
+    margin:1px;
 }
 
 
 .footer {
-    background-color: rgb(43, 9, 36);
+    background-color: rgb(58, 79, 84);
     display: grid;
     grid-column-start: 1;
     grid-column-end: 10 span ;
     grid-template-columns: 100% 200px;
     grid-area: 0 / 8 / 5 /2;
-    margin:3px;
+    margin:1px;
     text-align: center;
 }
 
