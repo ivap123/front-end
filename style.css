@@ -60,6 +60,7 @@ body{
     grid-template-columns: 30% 10% 60% 50% 30%;
     grid-template-rows: 10% 30% 30% 30% 30%;*/
     grid-row: 5 span ;
+    grid-area: 1 / 2 / 4 /1;
     
 }
 
@@ -74,23 +75,26 @@ body{
     background-color: bisque;
     display: grid;
     grid-column-start: 2;
-    grid-column-end: 6 span ;
-    grid-template-columns: 100% 200px;
-    grid-area: 2 / 2 / 5 /6;
-    margin-top: 2;
+    grid-column-end: 8 span ;
+    grid-row: 2;
+    grid-template-columns: 0 px 100px;
+    grid-area: 2 / 2 / 4 /9;
+   
+    
 }
 
-.texto{
+/*.texto{
     text-align: right;
-}
+}*/
 
 .hobbie {
     background-color: rgb(123, 87, 43);
     display: grid;
     grid-column-start: 3;
-    grid-column-end: 5 span ;
-    grid-template-columns: 100% 200px;
-    grid-area: 5 / 6 / 4 /2;
+    grid-column-end: 6 span ;
+    grid-row:3;
+    grid-template-columns: 0 px 50%;
+    grid-area: 4 / 4 / 4 /2;
     margin:2px;
 }
 
@@ -98,8 +102,8 @@ body{
     background-color: rgb(17, 104, 28);
     display: grid;
     grid-column-start: 4;
-    grid-column-end: 7 span ;
-    grid-template-columns: 100% 200px;
+    grid-column-end: 7 ;
+    grid-template-columns: 0 px  100%;
     grid-area: 7 / 6/ 5/2;
     margin:2px;
 }
@@ -113,6 +117,7 @@ body{
     grid-template-columns: 100% 200px;
     grid-area: 0 / 8 / 5 /2;
     margin:3px;
+    text-align: center;
 }
 
 
