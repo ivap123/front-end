@@ -26,7 +26,7 @@ body{
     border-radius: 1px;
     padding: 10px;
     
-    /*text-align: center;*/
+   
     
 }
 .grid-contenedor{
@@ -58,9 +58,6 @@ body{
     background-color: rgb(138, 240, 240);
     display: grid;
     grid-column-start:1;
-    /*grid-row:2;
-    grid-template-columns: 30% 10% 60% 50% 30%;
-    grid-template-rows: 10% 30% 30% 30% 30%;*/
     grid-row: 5 span ;
     grid-area: 2 / 2 / 4 /1;
     
@@ -71,7 +68,6 @@ body{
     display: grid;
     grid-column-start:3;
     grid-row: 5 span ;
-    /*grid-template-columns: 0 px  100px;*/
     grid-area: 4 / 1 / 7 /1 ;
     margin: 1px;
     
@@ -132,4 +128,22 @@ body{
     text-align: center;
 }
 
+.imagen3{
+    padding: 1px; 
+    margin: 10px; 
+    border: 2px solid black; 
+    float: center; 
+    width: 150px;
+}
 
+.rayo{
+   display: grid;
+   grid-column-start:1;
+   grid-area: 1 / 1 / 0 /0;
+   padding: 1px; 
+    margin: 1px; 
+    border: 2px solid black; 
+    float: center; 
+    width: 100px
+
+}
